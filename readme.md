@@ -8,7 +8,6 @@
 | Features |
 | Requirements |
 | Installation |
-| Extending the script |
 
 
 
@@ -43,7 +42,7 @@ a list of notable features of the script
 
 - Future Proof
 
-  - ~~No Hardcoded currencies by dynamically fetching Currencies from EC~~ (remvoed until EC adds this endpoint)
+  - ~~No Hardcoded currencies by dynamically fetching Currencies from EC~~ (removed until EC adds this endpoint)
 
   - Images are pulled from EC whenever a currency is added
 
