@@ -1,0 +1,78 @@
+html{ /* accent red theme */
+	--FirstBackground: #f5f5f5;
+	--FirstForeground: #1b1b1b;
+
+	--SecondBackground: #ff7043;
+	--SecondForeground: #f5f5f5;
+
+	--ThirdBackground: #dd5332;
+	--ThirdForeground: #f5f5f5;
+
+	--ButtonBackground: #4caf50;
+	--ButtonForeground: #efefef;
+}
+html{ /* all black theme */
+	--FirstBackground: #1a1a1a;
+	--FirstForeground: #efefef;
+
+	--SecondBackground: rgba(255,255,255,0.13);
+	--SecondForeground: var(--FirstForeground);
+
+	--ThirdBackground: rgba(0,0,0,0.4);
+	--ThirdForeground: var(--FirstForeground);
+
+	--ButtonBackground: #4caf50;
+	--ButtonForeground: #efefef;
+}
+Select ,input{
+	max-width:100%;
+	font-size:2rem;
+	border-radius:5px;
+	padding:0px;
+	box-sizing:border-box;
+}
+Select:focus{
+ border-radius: 8px 8px 0px 0px;
+}
+body{
+	color: var(--FirstForeground);
+	background-color: var(--FirstBackground);
+}
+.FirstLayer , .FirstLayer a:not(.btn){
+	color: var(--FirstForeground);
+	background-color: var(--FirstBackground);
+}
+.SecondLayer , .SecondLayer a:not(.btn){
+	color: var(--SecondForeground);
+	background-color: var(--SecondBackground);
+}
+.ThirdLayer , .ThirdLayer a:not(.btn){
+	color: var(--ThirdForeground);
+	background-color: var(--ThirdBackground);
+}
+
+.FirstLayer a:not(.btn), .SecondLayer a:not(.btn), .ThirdLayer a:not(.btn){
+	background-color: rgba(0,0,0,0) ;
+}
+.btn{
+	color: var(--ButtonForeground);
+	background-color: var(--ButtonBackground);
+	font-size:2rem;
+	padding: 0px 12px;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.2);
+	transition-duration: 0.4s;
+}
+.btn:hover {
+  box-shadow: 3px 3px 4px rgba(0,0,0,.5);
+}
+.Smalltext{
+	font-size:0.8rem;
+}
+.card{
+	border: 1px solid rgba(255,255,255,0.1);
+	 box-shadow: 2px 2px 1px rgba(0,0,0,.2);
+	transition-duration: 0.4s;
+}
+.card:hover {
+  box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
