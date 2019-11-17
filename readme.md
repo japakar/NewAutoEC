@@ -85,3 +85,5 @@ a list of notable features of the script
 - open the config.php file, get your Security Key and use it to set up admin credentials
 
 - Done! you can now configure your script and never need to touch a config file again!
+
+<a href="https://hCaptcha.com/?r=befc8fa2362e" target="_blank">HCaptcha</a><br>
